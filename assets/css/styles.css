@@ -20,4 +20,47 @@ body {
     background-image: url("../img/PK_TRex.png");
     background-size: cover;
     background-position: top;
+	min-height: 100vh;
+}
+
+.Trike-bg {
+    background-image: url("../img/PK_Trike.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Spino-bg {
+    background-image: url("../img/PK_Spino.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Raptor-bg {
+    background-image: url("../img/PK_Raptor.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Dilo-bg {
+    background-image: url("../img/PK_Dilo.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Carcha-bg {
+    background-image: url("../img/PK_Carcha.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Argentino-bg {
+    background-image: url("../img/PK_Argent.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
 }
