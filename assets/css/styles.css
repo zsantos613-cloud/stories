@@ -3,3 +3,11 @@
 * {
 	font-family: Arial;
 }
+
+.custom-bg {
+	background-image: url("..img/ToyDinosaurs.jpg");
+	background-size: cover;
+	background-position:center;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+}
