@@ -73,3 +73,8 @@ body {
     background-position: top;
 	min-height: 100vh;
 }
+
+/* page with black text */
+.black-text {
+	color: black;
+}
