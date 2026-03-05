@@ -6,7 +6,11 @@
 }
 
 * {
-	font-family: "ArkPixel", Arial, sans-serif;
+	font-family: Arial;
+}
+
+.pixel-font {
+	font.family: "ArkPixel", Arial, sans-serif;
 }
 
 body {
