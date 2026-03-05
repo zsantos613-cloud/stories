@@ -1,5 +1,9 @@
 /* styles.css */
 
+@font-face {
+	font-family: "ArkPixel";
+}
+
 * {
 	font-family: Arial;
 }
