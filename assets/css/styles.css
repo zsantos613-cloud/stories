@@ -2,10 +2,11 @@
 
 @font-face {
 	font-family: "ArkPixel";
+	src: url("ark-pixel-12px-monospaced-zh_tw.otf") format("opentype");
 }
 
 * {
-	font-family: Arial;
+	font-family: "ArkPixel", Arial, sans-serif;
 }
 
 body {
