@@ -78,3 +78,40 @@ body {
 .black-text {
 	color: black;
 }
+
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Card container */
+.dino-card {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Info boxes */
+.info-box {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Positioning (like your reference image) */
+.top-left { top: 10px; left: 10px; }
+.top-center { top: 10px; left: 50%; transform: translateX(-50%); }
+.top-right { top: 10px; right: 10px; }
+
+.bottom-left { bottom: 10px; left: 10px; }
+.bottom-right { bottom: 10px; right: 10px; }
+
+/* Description styling */
+.description {
+    max-width: 700px;
+    margin: auto;
+    font-size: 1.1rem;
+}
