@@ -80,38 +80,84 @@ body {
 }
 
 
-.subtitle {
-    font-size: 1.2rem;
-    color: #666;
+/* Background */
+.jw-bg {
+    background: linear-gradient(180deg, #0a0f1a, #05070d);
+    color: #e0e6f0;
+    font-family: 'Orbitron', sans-serif;
 }
 
-/* Card container */
-.dino-card {
-    max-width: 800px;
-    margin: auto;
+/* Panel */
+.jw-panel {
+    background: #0f1624;
+    border: 1px solid #1f2a3a;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 0 25px rgba(0, 150, 255, 0.15);
 }
 
-/* Info boxes */
-.info-box {
-    position: absolute;
-    background: rgba(255, 255, 255, 0.9);
-    padding: 10px 15px;
-    border-radius: 10px;
-    font-size: 0.9rem;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+/* Header */
+.jw-title {
+    font-size: 2rem;
+    letter-spacing: 2px;
 }
 
-/* Positioning (like your reference image) */
-.top-left { top: 10px; left: 10px; }
-.top-center { top: 10px; left: 50%; transform: translateX(-50%); }
-.top-right { top: 10px; right: 10px; }
+.jw-subtitle {
+    font-size: 0.8rem;
+    color: #6c7a92;
+    letter-spacing: 2px;
+}
 
-.bottom-left { bottom: 10px; left: 10px; }
-.bottom-right { bottom: 10px; right: 10px; }
+/* Badge */
+.jw-badge {
+    background: #ff3b3b;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
 
-/* Description styling */
-.description {
-    max-width: 700px;
-    margin: auto;
-    font-size: 1.1rem;
+/* Image */
+.jw-image img {
+    border-radius: 8px;
+    margin: 15px 0;
+    border: 1px solid #1f2a3a;
+}
+
+/* Stats */
+.jw-stats {
+    border-top: 1px solid #1f2a3a;
+    border-bottom: 1px solid #1f2a3a;
+    padding: 15px 0;
+    margin-top: 10px;
+}
+
+.label {
+    font-size: 0.7rem;
+    color: #6c7a92;
+    letter-spacing: 1px;
+}
+
+.value {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Description */
+.jw-description {
+    margin-top: 15px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* Buttons */
+.jw-btn {
+    border: 1px solid #2a3b55;
+    color: #cfd8e3;
+}
+
+.jw-btn-primary {
+    background: #00aaff;
+    border: none;
+    color: black;
 }
