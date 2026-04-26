@@ -1,1 +1,45 @@
 
+<div class="container py-5">
+
+  <!-- Title Section -->
+  <div class="text-center mb-4">
+    <h1 class="display-4">Tyrannosaurus Rex</h1>
+    <p class="subtitle">"Tyrant Lizard King"</p>
+  </div>
+
+  <!-- Image + Overlay Info -->
+  <div class="dino-card position-relative">
+
+    <img src="./assets/images/trex.jpg" class="img-fluid rounded shadow">
+
+    <!-- Info Boxes -->
+    <div class="info-box top-left">
+      <p><strong>Family:</strong> Tyrannosauridae</p>
+    </div>
+
+    <div class="info-box top-center">
+      <p><strong>Region:</strong> North America</p>
+    </div>
+
+    <div class="info-box top-right">
+      <p><strong>Diet:</strong> Carnivorous</p>
+    </div>
+
+    <div class="info-box bottom-left">
+      <p><strong>Period:</strong> Late Cretaceous</p>
+    </div>
+
+    <div class="info-box bottom-right">
+      <p><strong>Source:</strong> Prehistoric Kingdom</p>
+    </div>
+
+  </div>
+
+  <!-- Description -->
+  <div class="mt-4 text-center">
+    <p class="description">
+      The Tyrannosaurus (T-Rex) was one of the heaviest terrestrial predators to ever live...
+    </p>
+  </div>
+
+</div>
