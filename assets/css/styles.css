@@ -33,42 +33,42 @@ body {
 }
 
 .Trike-bg {
-    background-image: url("../img/PK_Trike.png");
+    background-image: url("../img/Fp_Triceratops.png");
     background-size: cover;
     background-position: top;
 	min-height: 100vh;
 }
 
 .Spino-bg {
-    background-image: url("../img/PK_Spino.png");
+    background-image: url("../img/FP_Spinosaurus.png");
     background-size: cover;
     background-position: top;
 	min-height: 100vh;
 }
 
 .Raptor-bg {
-    background-image: url("../img/PK_Raptor.png");
+    background-image: url("../img/FP_Velociraptor.png");
     background-size: cover;
     background-position: top;
 	min-height: 100vh;
 }
 
 .Dilo-bg {
-    background-image: url("../img/PK_Dilo.png");
+    background-image: url("../img/FP_Dilophosaurus.png");
     background-size: cover;
     background-position: top;
 	min-height: 100vh;
 }
 
 .Carcha-bg {
-    background-image: url("../img/PK_Carcha.png");
+    background-image: url("../img/FP_Carcharodontosaurus.png");
     background-size: cover;
     background-position: top;
 	min-height: 100vh;
 }
 
 .Argentino-bg {
-    background-image: url("../img/PK_Argent.png");
+    background-image: url("../img/FP_Argentinosaurus.png");
     background-size: cover;
     background-position: top;
 	min-height: 100vh;
