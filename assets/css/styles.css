@@ -96,6 +96,7 @@ body {
     box-shadow: 0 0 15px rgba(0, 150, 255, 0.15);
 
 	max-width: 650px;
+	margin: 0;
 }
 
 /* Header */
