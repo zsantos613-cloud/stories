@@ -33,7 +33,7 @@ body {
 }
 
 .Trike-bg {
-    background-image: url("../img/Fp_Triceratops.png");
+    background-image: url("../img/FP_Triceratops.png");
     background-size: cover;
     background-position: top;
 	min-height: 100vh;
@@ -73,6 +73,199 @@ body {
     background-position: top;
 	min-height: 100vh;
 }
+
+.Acro-bg {
+    background-image: url("../img/FP_Acrocanthosaurus.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Anky-bg {
+    background-image: url("../img/FP_Ankylosaurus.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Apato-bg {
+    background-image: url("../img/FP_Apatosaurus.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Archelon-bg {
+    background-image: url("../img/FP_Archelon.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Brachy-bg {
+    background-image: url("../img/FP_Brachiosaurus.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Carcha-bg {
+    background-image: url("../img/FP_Carcharodontosaurus.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Coelodonta-bg {
+    background-image: url("../img/FP_Coelodonta.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Deinocheirus-bg {
+    background-image: url("../img/FP_Deinocheirus.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Dimetrodon-bg {
+    background-image: url("../img/FP_Dimetrodon.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Diplocaulus-bg {
+    background-image: url("../img/FP_Diplocaulus.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Edmontosaurus-bg {
+    background-image: url("../img/FP_Edmontosaurus.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Galli-bg {
+    background-image: url("../img/FP_Gallimimus.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Giga-bg {
+    background-image: url("../img/FP_Giganotosaurus.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Gigantoraptor-bg {
+    background-image: url("../img/FP_Gigantoraptor.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Ichtyosaurus-bg {
+    background-image: url("../img/FP_Ichtyosaurus.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Iguanodon-bg {
+    background-image: url("../img/FP_Iguanodon.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Jehelopterus-bg {
+    background-image: url("../img/FP_Jehelopterus.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Loki-bg {
+    background-image: url("../img/FP_Lokiceratops.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Mammoth-bg {
+    background-image: url("../img/FP_Mammuthus.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Stag-bg {
+    background-image: url("../img/FP_Megaloceros.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Megalodon-bg {
+    background-image: url("../img/FP_Megalodon.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Oviraptor-bg {
+    background-image: url("../img/FP_Oviraptor.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Pachyrhino-bg {
+    background-image: url("../img/FP_Pachyrhinosaurus.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Parasaur-bg {
+    background-image: url("../img/FP_Parasaurolophus.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Protoceratops-bg {
+    background-image: url("../img/FP_Protoceratops.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Styraco-bg {
+    background-image: url("../img/FP_Styracosaurus.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Tarbo-bg {
+    background-image: url("../img/FP_Tarbosaurus.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+
+
+
 
 /* page with black text */
 .black-text {
