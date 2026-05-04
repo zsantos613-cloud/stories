@@ -53,12 +53,12 @@ function displayDinosaurs(list) {
         col.className = "col-6 col-sm-4 col-md-3 col-lg-2";
 
         col.innerHTML = `
-            <a href="${dino.name.toLowerCase()}.html">
-                <div class="dino-card">
-                    <img src="${dino.img}">
-                    <div>${dino.name}</div>
-                </div>
-            </a>
+    <a href="${dino.name.toLowerCase()}.html" style="text-decoration:none;">
+        <div class="dino-card">
+            <img src="https://raw.githubusercontent.com/zsantos613-cloud/stories/main/assets/img/Icon_${dino.name}.png">
+            <div>${dino.name}</div>
+        </div>
+    </a>
         `;
 
         grid.appendChild(col);
