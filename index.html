@@ -3,78 +3,138 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-
 <title>Dinosaur Database</title>
-
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-
 <style>
 body {
     background: #05070d;
     color: white;
-    font-family: 'Orbitron', sans-serif;
+    font-family: Arial, sans-serif;
 }
-
-/* Cards */
+a {
+    text-decoration: none;
+}
 .dino-card {
     background: rgba(15, 22, 36, 0.8);
     border: 1px solid #1f2a3a;
     border-radius: 12px;
     padding: 15px;
-    text-align: center;
     transition: 0.3s;
     height: 140px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 }
-
 .dino-card:hover {
     transform: scale(1.05);
     box-shadow: 0 0 15px rgba(0,150,255,0.4);
 }
-
-/* Icons */
 .dino-card img {
     width: 70px;
     height: 70px;
     object-fit: contain;
+    margin-bottom: 8px;
 }
-
-/* Filters */
+.dino-card div {
+    color: white;
+    font-size: 0.85rem;
+}
 .filter-btn {
     margin: 5px;
 }
-
 </style>
 </head>
-
 <body>
-
 <div class="container py-5">
-
 <h2 class="text-center mb-4">DINOSAUR DATABASE</h2>
-
-<!-- 🔍 Search -->
 <input type="text" id="search" class="form-control mb-3" placeholder="Search...">
-
-<!-- 🎛 Filters -->
 <div class="text-center mb-4">
     <button class="btn btn-outline-light filter-btn" onclick="filterType('all')">All</button>
     <button class="btn btn-outline-danger filter-btn" onclick="filterType('carnivore')">Carnivore</button>
     <button class="btn btn-outline-success filter-btn" onclick="filterType('herbivore')">Herbivore</button>
-    <button class="btn btn-outline-info filter-btn" onclick="filterType('piscivore')">Piscivore</button>
     <button class="btn btn-outline-info filter-btn" onclick="filterType('aquatic')">Aquatic</button>
-    
+    <button class="btn btn-outline-warning filter-btn" onclick="filterType('omnivore')">Omnivore</button>
+    <button class="btn btn-outline-secondary filter-btn" onclick="filterType('piscivore')">Piscivore</button>
 </div>
-
-<!-- Grid -->
 <div id="dino-grid" class="row g-4"></div>
-
 </div>
+<script>
+const BASE = "https://raw.githubusercontent.com/zsantos613-cloud/stories/main/assets/img/";
+const dinosaurs = [
+  {name:"Utahraptor", type:"carnivore"},
+  {name:"Lokiceratops", type:"herbivore"},
+  {name:"Yutyrannus", type:"carnivore"},
+  {name:"Allosaurus", type:"carnivore"},
+  {name:"Amargasaurus", type:"herbivore"},
+  {name:"Ankylosaurus", type:"herbivore"},
+  {name:"Edmontosaurus", type:"herbivore"},
+  {name:"Hypsilophodon", type:"herbivore"},
+  {name:"Ceratosaurus", type:"carnivore"},
+  {name:"Concavenator", type:"carnivore"},
+  {name:"Deinocheirus", type:"omnivore"},
+  {name:"Tarbosaurus", type:"carnivore"},
+  {name:"Velociraptor", type:"carnivore"},
+  {name:"Triceratops", type:"herbivore"},
+  {name:"Thanatosdrakon", type:"carnivore"},
+  {name:"Iguanodon", type:"herbivore"},
+  {name:"Styxosaurus", type:"aquatic"},
+  {name:"Dilophosaurus", type:"carnivore"},
+  {name:"Miragaia", type:"herbivore"},
+  {name:"Stygimoloch", type:"herbivore"},
+  {name:"Carnotaurus", type:"carnivore"},
+  {name:"Rhamphorhynchus", type:"piscivore"},
+  {name:"Sarcosuchus", type:"carnivore"},
+  {name:"Stegosaurus", type:"herbivore"},
+  {name:"Spinosaurus", type:"piscivore"},
+  {name:"Gallimimus", type:"omnivore"},
+  {name:"Styracosaurus", type:"herbivore"},
+  {name:"Irritator", type:"piscivore"},
+  {name:"Caiuajara", type:"herbivore"},
+  {name:"Carcharodontosaurus", type:"carnivore"},
+  {name:"Tyrannosaurus", type:"carnivore"},
+  {name:"Mosasaurus", type:"aquatic"},
+  {name:"Kentrosaurus", type:"herbivore"},
+  {name:"Ichthyosaurus", type:"aquatic"},
+  {name:"Austroraptor", type:"piscivore"}
+];
+const grid = document.getElementById("dino-grid");
+let currentFilter = "all";
 
-<script src="./assets/js/main.js"></script>
+function displayDinosaurs(list) {
+    grid.innerHTML = "";
+    list.forEach(dino => {
+        const col = document.createElement("div");
+        col.className = "col-6 col-sm-4 col-md-3 col-lg-2";
+        col.innerHTML = `
+            <a href="${dino.name.toLowerCase()}.html">
+                <div class="dino-card">
+                    <img src="${BASE}Icon_${dino.name}.webp"
+                         onerror="this.onerror=null;this.src='${BASE}Icon_${dino.name}.png'">
+                    <div>${dino.name}</div>
+                </div>
+            </a>
+        `;
+        grid.appendChild(col);
+    });
+}
 
+document.getElementById("search").addEventListener("input", e => {
+    const value = e.target.value.toLowerCase();
+    const filtered = dinosaurs.filter(d =>
+        d.name.toLowerCase().includes(value) &&
+        (currentFilter === "all" || d.type === currentFilter)
+    );
+    displayDinosaurs(filtered);
+});
+
+function filterType(type) {
+    currentFilter = type;
+    displayDinosaurs(dinosaurs.filter(d => type === "all" || d.type === type));
+}
+
+displayDinosaurs(dinosaurs);
+</script>
 </body>
 </html>
