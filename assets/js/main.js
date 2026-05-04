@@ -53,7 +53,7 @@ function displayDinosaurs(list) {
         col.className = "col-6 col-sm-4 col-md-3 col-lg-2";
 
     col.innerHTML = `
-    <a href="${dino.name.toLowerCase()}.html" style="text-decoration:none;">
+    <a href="${dino.name.toLowerCase()}.html" style="text-decoration:none; width:100%; height:100%;">
         <div class="dino-card">
             <img src="https://raw.githubusercontent.com/zsantos613-cloud/stories/main/assets/img/Icon_${dino.name}.webp" 
                  onerror="this.src='https://raw.githubusercontent.com/zsantos613-cloud/stories/main/assets/img/Icon_${dino.name}.png'">
