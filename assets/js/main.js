@@ -35,10 +35,10 @@ const dinosaurs = [
   {name:"Caiuajara", type:"herbivore"},
   {name:"Carcharodontosaurus", type:"carnivore"},
   {name:"Tyrannosaurus", type:"carnivore"},
-  {name:"Mosasaurus", type:"aquatic"},
-  {name:"Kentrosaurus", type:"herbivore"},
-  {name:"Ichthyosaurus", type:"aquatic"},
-  {name:"Austroraptor", type:"piscivore"}
+  {name:"Mosasaurus", type:"aquatic", img:"https://raw.githubusercontent.com/zsantos613-cloud/stories/main/assets/img/Icon_Mosasaurus.webp"},
+  {name:"Kentrosaurus", type:"herbivore", img:"https://raw.githubusercontent.com/zsantos613-cloud/stories/main/assets/img/Icon_Kentrosaurus.webp"},
+  {name:"Ichthyosaurus", type:"aquatic", img:"https://raw.githubusercontent.com/zsantos613-cloud/stories/main/assets/img/Icon_Ichthyosaurus.webp"},
+  {name:"Austroraptor", type:"piscivore", img:"https://raw.githubusercontent.com/zsantos613-cloud/stories/main/assets/img/Icon_Austroraptor.webp"},
 ];
 
 const grid = document.getElementById("dino-grid");
