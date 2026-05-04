@@ -52,14 +52,15 @@ function displayDinosaurs(list) {
         const col = document.createElement("div");
         col.className = "col-6 col-sm-4 col-md-3 col-lg-2";
 
-        col.innerHTML = `
+    col.innerHTML = `
     <a href="${dino.name.toLowerCase()}.html" style="text-decoration:none;">
         <div class="dino-card">
-            <img src="https://raw.githubusercontent.com/zsantos613-cloud/stories/main/assets/img/Icon_${dino.name}.png">
+            <img src="https://raw.githubusercontent.com/zsantos613-cloud/stories/main/assets/img/Icon_${dino.name}.webp" 
+                 onerror="this.src='https://raw.githubusercontent.com/zsantos613-cloud/stories/main/assets/img/Icon_${dino.name}.png'">
             <div>${dino.name}</div>
         </div>
     </a>
-        `;
+    `;
 
         grid.appendChild(col);
     });
