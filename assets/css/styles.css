@@ -362,3 +362,12 @@ body {
     border: none;
     color: black;
 }
+
+.dino-card {
+    text-align: center;
+}
+
+.dino-card img {
+    display: block;
+    margin: 0 auto;
+}
