@@ -55,7 +55,7 @@ function displayDinosaurs(list) {
         col.innerHTML = `
             <a href="${dino.name.toLowerCase()}.html">
                 <div class="dino-card">
-                    <img src="./assets/images/Icon_${dino.name}.png">
+                    <img src="${dino.img}">
                     <div>${dino.name}</div>
                 </div>
             </a>
