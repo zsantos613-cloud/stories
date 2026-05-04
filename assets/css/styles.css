@@ -263,7 +263,12 @@ body {
 	min-height: 100vh;
 }
 
-
+.Stego-bg {
+    background-image: url("../img/FP_Stegosaurus.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
 
 
 
