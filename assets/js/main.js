@@ -34,7 +34,7 @@ const dinosaurs = [
   {name:"Irritator", type:"piscivore"},
   {name:"Caiuajara", type:"herbivore"},
   {name:"Carcharodontosaurus", type:"carnivore"},
-  {name:"Tyrannosaurus", type:"carnivore"},
+  {name:"Tyrannosaurus", type:"carnivore", page:"01.html"},
   {name:"Mosasaurus", type:"aquatic", img:"https://raw.githubusercontent.com/zsantos613-cloud/stories/main/assets/img/Icon_Mosasaurus.webp"},
   {name:"Kentrosaurus", type:"herbivore", img:"https://raw.githubusercontent.com/zsantos613-cloud/stories/main/assets/img/Icon_Kentrosaurus.webp"},
   {name:"Ichthyosaurus", type:"aquatic", img:"https://raw.githubusercontent.com/zsantos613-cloud/stories/main/assets/img/Icon_Ichthyosaurus.webp"},
