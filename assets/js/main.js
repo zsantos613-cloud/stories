@@ -4,7 +4,7 @@ console.log("Hello, World!");
 
 
 const dinosaurs = [
-  {name:"Utahraptor", type:"carnivore", img:"assets/images/Icon_Utahraptor.png"},
+  {name:"Utahraptor", type:"carnivore", img:"assets/img/Icon_Utahraptor.png"},
   {name:"Lokiceratops", type:"herbivore"},
   {name:"Yutyrannus", type:"carnivore"},
   {name:"Allosaurus", type:"carnivore"},
