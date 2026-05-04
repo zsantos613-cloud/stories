@@ -25,7 +25,7 @@ const dinosaurs = [
   {name:"Miragaia", type:"herbivore"},
   {name:"Stygimoloch", type:"herbivore"},
   {name:"Carnotaurus", type:"carnivore"},
-  {name:"Rhamphorhynchus", type:"carnivore"},
+  {name:"Rhamphorhynchus", type:"piscivore"},
   {name:"Sarcosuchus", type:"carnivore"},
   {name:"Stegosaurus", type:"herbivore"},
   {name:"Spinosaurus", type:"piscivore"},
