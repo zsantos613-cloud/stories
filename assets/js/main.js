@@ -26,7 +26,7 @@ const dinosaurs = [
   {name:"Stygimoloch", type:"herbivore"},
   {name:"Carnotaurus", type:"carnivore"},
   {name:"Rhamphorhynchus", type:"carnivore"},
-  {name:"Sarcosaurus", type:"carnivore"},
+  {name:"Sarcosuchus", type:"carnivore"},
   {name:"Stegosaurus", type:"herbivore"},
   {name:"Spinosaurus", type:"piscivore"},
   {name:"Gallimimus", type:"omnivore"},
@@ -38,7 +38,7 @@ const dinosaurs = [
   {name:"Mosasaurus", type:"aquatic"},
   {name:"Kentrosaurus", type:"herbivore"},
   {name:"Ichthyosaurus", type:"aquatic"},
-  {name:"Austroraptor", type:"carnivore"}
+  {name:"Austroraptor", type:"piscivore"}
 ];
 
 const grid = document.getElementById("dino-grid");
