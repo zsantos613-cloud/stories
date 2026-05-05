@@ -187,14 +187,14 @@ body {
 }
 
 .Jehelopterus-bg {
-    background-image: url("../img/FP_Jehelopterus.png");
+    background-image: url("../img/FP_Jehelopterus.JPG");
     background-size: cover;
     background-position: top;
 	min-height: 100vh;
 }
 
 .Loki-bg {
-    background-image: url("../img/FP_Lokiceratops.png");
+    background-image: url("../img/FP_Lokiceratops.JPG");
     background-size: cover;
     background-position: top;
 	min-height: 100vh;
@@ -270,7 +270,12 @@ body {
 	min-height: 100vh;
 }
 
-
+.Utahraptor-bg {
+    background-image: url("../img/FP_Utahraptor.JPG");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
 
 /* page with black text */
 .black-text {
