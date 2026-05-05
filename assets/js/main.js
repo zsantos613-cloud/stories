@@ -4,30 +4,30 @@ console.log("Hello, World!");
 
 
 const dinosaurs = [
-  {name:"Utahraptor", type:"carnivore", img:"https://raw.githubusercontent.com/zsantos613-cloud/stories/main/assets/img/Icon_Utahraptor.png"},
+  {name:"Utahraptor", type:"carnivore"},
   {name:"Lokiceratops", type:"herbivore"},
   {name:"Yutyrannus", type:"carnivore"},
   {name:"Allosaurus", type:"carnivore"},
   {name:"Amargasaurus", type:"herbivore"},
-  {name:"Ankylosaurus", type:"herbivore"},
-  {name:"Edmontosaurus", type:"herbivore"},
+  {name:"Ankylosaurus", type:"herbivore", page:"03.html"},
+  {name:"Edmontosaurus", type:"herbivore", page:"04.html"},
   {name:"Hypsilophodon", type:"herbivore"},
   {name:"Ceratosaurus", type:"carnivore"},
   {name:"Concavenator", type:"carnivore"},
   {name:"Deinocheirus", type:"omnivore"},
   {name:"Tarbosaurus", type:"carnivore"},
   {name:"Velociraptor", type:"carnivore"},
-  {name:"Triceratops", type:"herbivore"},
+  {name:"Triceratops", type:"herbivore", page:"02.html"},
   {name:"Thanatosdrakon", type:"carnivore"},
   {name:"Iguanodon", type:"herbivore"},
   {name:"Styxosaurus", type:"aquatic"},
-  {name:"Dilophosaurus", type:"carnivore"},
+  {name:"Dilophosaurus", type:"carnivore", page:"05.html"},
   {name:"Miragaia", type:"herbivore"},
   {name:"Stygimoloch", type:"herbivore"},
   {name:"Carnotaurus", type:"carnivore"},
   {name:"Rhamphorhynchus", type:"piscivore"},
   {name:"Sarcosuchus", type:"carnivore"},
-  {name:"Stegosaurus", type:"herbivore"},
+  {name:"Stegosaurus", type:"herbivore", page:"06.html"},
   {name:"Spinosaurus", type:"piscivore"},
   {name:"Gallimimus", type:"omnivore"},
   {name:"Styracosaurus", type:"herbivore"},
@@ -35,10 +35,10 @@ const dinosaurs = [
   {name:"Caiuajara", type:"herbivore"},
   {name:"Carcharodontosaurus", type:"carnivore"},
   {name:"Tyrannosaurus", type:"carnivore", page:"01.html"},
-  {name:"Mosasaurus", type:"aquatic", img:"https://raw.githubusercontent.com/zsantos613-cloud/stories/main/assets/img/Icon_Mosasaurus.webp"},
-  {name:"Kentrosaurus", type:"herbivore", img:"https://raw.githubusercontent.com/zsantos613-cloud/stories/main/assets/img/Icon_Kentrosaurus.webp"},
-  {name:"Ichthyosaurus", type:"aquatic", img:"https://raw.githubusercontent.com/zsantos613-cloud/stories/main/assets/img/Icon_Ichthyosaurus.webp"},
-  {name:"Austroraptor", type:"piscivore", img:"https://raw.githubusercontent.com/zsantos613-cloud/stories/main/assets/img/Icon_Austroraptor.webp"},
+  {name:"Mosasaurus", type:"aquatic"},
+  {name:"Kentrosaurus", type:"herbivore"},
+  {name:"Ichthyosaurus", type:"aquatic"},
+  {name:"Austroraptor", type:"piscivore"}
 ];
 
 const grid = document.getElementById("dino-grid");
@@ -53,7 +53,7 @@ function displayDinosaurs(list) {
         col.className = "col-6 col-sm-4 col-md-3 col-lg-2";
 
     col.innerHTML = `
-   <a href="${dino.name.toLowerCase()}.html" style="text-decoration:none; width:100%; height:100%;">
+    <a href="${dino.page || '#'}" style="text-decoration:none; width:100%; height:100%;">
         <div class="dino-card">
             <img src="https://raw.githubusercontent.com/zsantos613-cloud/stories/main/assets/img/Icon_${dino.name}.webp" 
                  onerror="this.src='https://raw.githubusercontent.com/zsantos613-cloud/stories/main/assets/img/Icon_${dino.name}.png'">
