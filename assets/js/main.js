@@ -20,7 +20,7 @@ const dinosaurs = [
   {name:"Triceratops", type:"herbivore", page:"02.html"},
   {name:"Thanatosdrakon", type:"carnivore"},
   {name:"Iguanodon", type:"herbivore"},
-  {name:"Styxosaurus", type:"aquatic"},
+  {name:"Kaiwhekea", type:"aquatic"},
   {name:"Dilophosaurus", type:"carnivore", page:"05.html"},
   {name:"Miragaia", type:"herbivore"},
   {name:"Stygimoloch", type:"herbivore"},
