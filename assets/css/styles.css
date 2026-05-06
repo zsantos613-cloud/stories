@@ -285,11 +285,83 @@ body {
 }
 
 .Kaiwhekea-bg {
-    background-image: url("../img/FP_Kaiwhekea.jpg");
+    background-image: url("../img/FP_Kaiwhekea.png");
     background-size: cover;
     background-position: top;
 	min-height: 100vh;
 }
+
+.Maip-bg {
+    background-image: url("../img/FP_Maip.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Sarco-bg {
+    background-image: url("../img/FP_Sarcosuchus.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Carno-bg {
+    background-image: url("../img/FP_Carnotaurus.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Miragaia-bg {
+    background-image: url("../img/FP_Miragaia.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Rhamphy-bg {
+    background-image: url("../img/FP_Rhamphorhynchus.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Lambeo-bg {
+    background-image: url("../img/FP_Lambeosaurus.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Kentro-bg {
+    background-image: url("../img/FP_Kentrosaurus.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Cerato-bg {
+    background-image: url("../img/FP_Ceratosaurus.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Amarga-bg {
+    background-image: url("../img/FP_Amargasaurus.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Mosa-bg {
+    background-image: url("../img/FP_Mosasaurus.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+
 
 /* page with black text */
 .black-text {
