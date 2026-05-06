@@ -361,7 +361,12 @@ body {
 	min-height: 100vh;
 }
 
-
+.Stygi-bg {
+    background-image: url("../img/FP_Stygimoloch.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
 
 /* page with black text */
 .black-text {
