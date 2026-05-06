@@ -368,6 +368,17 @@ body {
 	min-height: 100vh;
 }
 
+.Thal-bg {
+    background-image: url("../img/FP_Thalassodromeus.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+
+
+
+
 /* page with black text */
 .black-text {
 	color: black;
