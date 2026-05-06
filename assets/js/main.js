@@ -39,7 +39,7 @@ const dinosaurs = [
   {name:"Ichthyosaurus", type:"aquatic"},
   {name:"Austroraptor", type:"piscivore"},
   {name:"Kaiwhekea", type:"aquatic"},
-  {name:"Argentinosaurus", type:"herbivore},
+  {name:"Argentinosaurus", type:"herbivore"},
     
 ];
 
