@@ -20,7 +20,6 @@ const dinosaurs = [
   {name:"Triceratops", type:"herbivore", page:"02.html"},
   {name:"Thanatosdrakon", type:"carnivore"},
   {name:"Iguanodon", type:"herbivore"},
-  {name:"Kaiwhekea", type:"aquatic"},
   {name:"Dilophosaurus", type:"carnivore", page:"05.html"},
   {name:"Miragaia", type:"herbivore"},
   {name:"Stygimoloch", type:"herbivore"},
@@ -39,6 +38,7 @@ const dinosaurs = [
   {name:"Kentrosaurus", type:"herbivore"},
   {name:"Ichthyosaurus", type:"aquatic"},
   {name:"Austroraptor", type:"piscivore"}
+  {name:"Kaiwhekea", type:"aquatic"},
 ];
 
 const grid = document.getElementById("dino-grid");
