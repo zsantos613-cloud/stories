@@ -39,6 +39,8 @@ const dinosaurs = [
   {name:"Ichthyosaurus", type:"aquatic"},
   {name:"Austroraptor", type:"piscivore"},
   {name:"Kaiwhekea", type:"aquatic"},
+  {name:"Argentinosaurus", type:"herbivore},
+    
 ];
 
 const grid = document.getElementById("dino-grid");
