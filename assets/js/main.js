@@ -40,6 +40,7 @@ const dinosaurs = [
   {name:"Austroraptor", type:"piscivore"},
   {name:"Kaiwhekea", type:"aquatic"},
   {name:"Argentinosaurus", type:"herbivore"},
+  {name:"Lambeosaurus", type:"herbivore"},
     
 ];
 
