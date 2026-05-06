@@ -31,7 +31,7 @@ const dinosaurs = [
   {name:"Gallimimus", type:"omnivore"},
   {name:"Styracosaurus", type:"herbivore"},
   {name:"Irritator", type:"piscivore"},
-  {name:"Caiuajara", type:"herbivore"},
+  {name:"Thalassodromeus", type:"carnivore"},
   {name:"Carcharodontosaurus", type:"carnivore"},
   {name:"Tyrannosaurus", type:"carnivore", page:"01.html"},
   {name:"Mosasaurus", type:"aquatic"},
