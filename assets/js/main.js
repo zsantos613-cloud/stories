@@ -41,6 +41,7 @@ const dinosaurs = [
   {name:"Kaiwhekea", type:"aquatic"},
   {name:"Argentinosaurus", type:"herbivore"},
   {name:"Lambeosaurus", type:"herbivore"},
+  {name:"Maip", type:"carnivore"},
     
 ];
 
