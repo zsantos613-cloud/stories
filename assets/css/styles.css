@@ -375,6 +375,48 @@ body {
 	min-height: 100vh;
 }
 
+.Yuty-bg {
+    background-image: url("../img/FP_Yutyrannus.JPG");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Hypsi-bg {
+    background-image: url("../img/FP_Hypsilophodon.JPG");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Austro-bg {
+    background-image: url("../img/FP_Austroraptor.JPG");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Conca-bg {
+    background-image: url("../img/FP_Concavenator.JPG");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Thanatos-bg {
+    background-image: url("../img/FP_Thanatosdrakon.JPG");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
+.Maip-bg {
+    background-image: url("../img/FP_Maip.png");
+    background-size: cover;
+    background-position: top;
+	min-height: 100vh;
+}
+
 
 
 
